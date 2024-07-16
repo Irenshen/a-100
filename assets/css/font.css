@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "PF BeauSans Pro";
+  src: url("../font/PFBeauSansPro-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PF BeauSans Pro";
+  src: url("../font/PFBeauSansPro-SemiBold.ttf");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PF BeauSans Pro";
+  src: url("../font/PFBeauSansPro-Black.ttf");
+  font-weight: 900;
+  font-style: normal;
+}
