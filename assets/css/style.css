@@ -1040,6 +1040,9 @@ input[type=checkbox] {
   line-height: 19.2px;
   border: none;
 }
+.custom-checkbox .input-item__label a {
+  color: #000000;
+}
 
 @media screen and (max-width: 1200px) {
   .col-100-l {
