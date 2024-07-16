@@ -46,10 +46,6 @@ a {
   cursor: pointer;
 }
 
-input {
-  -webkit-appearance: none;
-}
-
 p {
   margin: 0;
 }
