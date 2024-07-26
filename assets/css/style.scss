@@ -645,7 +645,7 @@ option {
     cursor: pointer;
     width: 100%;
     text-align: center;
-    z-index: 2;
+    z-index: 4;
     background: #fff;
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -802,9 +802,32 @@ option {
 }
 
 .section-calc__inner.robowash {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.section-calc__col {
+    width: calc((100% - 20px) / 2);
+}
+
+.section-calc__inner.robowash .section-calc__col:first-child {
     display: grid;
     gap: 20px;
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+.section-calc__col:last-child {
+
+    picture,
+    img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 7px;
+    }
+
 }
 
 .robowash-item {
@@ -1286,6 +1309,16 @@ input[type=checkbox] {
     .product-item:first-child .help-content {
         right: -40px;
         left: unset;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .section-calc__col {
+        width: 100%;
+    }
+
+    .section-calc__col:last-child {
+        height: 300px;
     }
 }
 
